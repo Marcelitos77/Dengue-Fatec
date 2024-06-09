@@ -1,0 +1,115 @@
+
+
+header {
+    display: flex;
+    background: linear-gradient(to bottom, #8f4b4b, #ca7575, #e27c7c, #f0abab); 
+    color: white;
+    padding: 1em;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+.nav-link {
+    color: #8f4b4b;
+    font-weight: 800;
+    font-family: Arial, sans-serif;  
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: white;
+    font-weight: 800;
+    font-family: Arial, sans-serif;  
+    background-color: #8f4b4b;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#meuGrafico {
+    background-color:  #f0abab;
+    width: 70%;  
+    height: auto;  
+}
+
+.caixa-maior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background: linear-gradient(to bottom, #f0abab, #e27c7c,#ca7575,#8f4b4b)
+}
+
+iframe {
+    width: 70%;
+    height: 350px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;  
+    background: linear-gradient(to bottom, #8f4b4b, #ca7575, #e27c7c, #f0abab); 
+    flex-wrap: wrap;
+}
+.card-img-top {
+    width: 100%;  
+    height: auto;  
+}
+
+.card {
+    margin-top: 20px; 
+    flex: 1 0 18rem; 
+    margin: 1rem;
+}
+
+.btn-primary {
+    background-color: #8f4b4b; 
+}
+
+.btn-primary:hover {
+    background-color: white; 
+    color: #8f4b4b;
+}
+
+footer {
+    background: linear-gradient(to bottom, #f0abab, #e27c7c,#ca7575,#8f4b4b);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;  
+}
+
+.logo img {
+    margin-top: 15px;
+    width: 100%;  
+    max-width: 300px;  
+    height: auto;  
+}
+
+@media (max-width: 1000px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: none;
+    }
+}
+@media (min-width: 1001px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: flex;
+    }
+}
+
+
+
