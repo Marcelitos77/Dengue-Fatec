@@ -1,11 +1,11 @@
 body{
-    background: linear-gradient(to bottom, #8f4b4b, #ca7575, #e27c7c, #f0abab);
+    background: linear-gradient(to bottom, #ca7575, #e27c7c, #f0abab);
     overflow-x: hidden;
 }
 
 header {
     display: flex;
-    background: linear-gradient(to bottom, #8f4b4b, #ca7575, #e27c7c, #f0abab); 
+    /*background: linear-gradient(to bottom, #8f4b4b, #ca7575, #e27c7c, #f0abab);*/ 
     color: white;
     padding: 1em;
     align-items: center;
@@ -35,17 +35,15 @@ header {
 }
 
 #meuGrafico {
-    background-color:  #f0abab;
+    /*background-color:  #f0abab;*/
     width: 70%;  
     height: auto;  
 }
 
-.caixa-maior {
-    display: flex;
+.container-fluid {
     justify-content: center;
     align-items: center;
-    height: 70vh;
-    background: linear-gradient(to bottom, #f0abab, #e27c7c,#ca7575,#8f4b4b)
+    /*background: linear-gradient(to bottom, #f0abab, #e27c7c,#ca7575,#8f4b4b)*/
 }
 
 iframe {
@@ -53,12 +51,8 @@ iframe {
     height: 350px;
 }
 
-.cards {
-    display: flex;
-    justify-content: space-around;  
-    align-items: center;  
-    background: linear-gradient(to bottom, #8f4b4b, #ca7575, #e27c7c, #f0abab); 
-    flex-wrap: wrap;
+.conteudo-row {
+    /*background: linear-gradient(to bottom, #8f4b4b, #ca7575, #e27c7c, #f0abab);*/ 
     /*padding: 1em;*/
 }
 .card-img-top {
@@ -89,7 +83,7 @@ iframe {
 
 
 footer {
-    background: linear-gradient(to bottom, #f0abab, #e27c7c,#ca7575,#8f4b4b);
+    /*background: linear-gradient(to bottom, #f0abab, #e27c7c,#ca7575,#8f4b4b);*/
 }
 
 footer a:hover {
