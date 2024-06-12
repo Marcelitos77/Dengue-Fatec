@@ -1,4 +1,7 @@
-
+body{
+    background: linear-gradient(to bottom, #8f4b4b, #ca7575, #e27c7c, #f0abab);
+    overflow-x: hidden;
+}
 
 header {
     display: flex;
@@ -56,16 +59,22 @@ iframe {
     align-items: center;  
     background: linear-gradient(to bottom, #8f4b4b, #ca7575, #e27c7c, #f0abab); 
     flex-wrap: wrap;
+    /*padding: 1em;*/
 }
 .card-img-top {
     width: 100%;  
     height: auto;  
 }
 
-.card {
-    margin-top: 20px; 
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card { 
     flex: 1 0 18rem; 
     margin: 1rem;
+    margin-bottom: 5%;
+    transition: transform 0.5s ease;
 }
 
 .btn-primary {
@@ -83,6 +92,10 @@ footer {
     background: linear-gradient(to bottom, #f0abab, #e27c7c,#ca7575,#8f4b4b);
 }
 
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
 
 .footer1 {
     display: flex;
@@ -128,9 +141,9 @@ a {
     height: auto;  
 }
 
-@media (max-width: 1000px) {
+/*@media (max-width: 1000px) {
     .navbar-expand-lg {
-        display: none;
+        display: flex;
     }
    
     
