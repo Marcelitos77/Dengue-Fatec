@@ -16,14 +16,14 @@
 </head>
 <body>
 <header>
-    <section class="row">
+    <section class="row mb-2">
         <article class="col imgs">
-            <img src="img/dengu.png" alt="">
+            <img class="imgdengue" src="img/dengu.png" alt="">
             <img src="img/logo_fatec_br (1).png" alt="">
             <img src="img/prefeitura (1).png" alt="">
         </article>
         <article class="col">
-            <ul class="nav mt-3 mr-5 mb-5">
+            <ul class="nav mt-3 mr-5">
                 <li class="nav-item mt-3">
                 <a class="nav-link" href="#">Gov.br</a>
                 </li>
@@ -76,11 +76,27 @@
                 </div>
             </div>
         </div>
+        <form>
+        <div class="formtudo mt-5">
+            <h4 class="text-center"><b>Dúvidas sobre a dengue?</b></h4>
+            <div class="form-group" style="margin-left: 4.2%; margin-right: 4.2%;">
+              <label for="exampleFormControlInput1" style="margin-top: 2%;">Endereço de email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+            </div>
+            <div class="form-group ml-5 mr-5" style="padding-bottom: 3%;">
+              <label for="exampleFormControlTextarea1">Digite sua dúvida</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <button type="button" id="btn-env" class="btn btn-primary mt-3" data-toggle="button" aria-pressed="false" autocomplete="off">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
     </div>
     <section id="footer">
 		<div class="container">
 			<div class="row text-center text-xs-center text-sm-left text-md-left mt-5 mb-5">
-				<div class="col-xs-12 col-sm-4 col-md-4">
+				<div class="col-xs-12 col-sm-4 col-md-4 mb-5">
 					<h5>Saúde</h5>
 					<ul class="list-unstyled quick-links">
 						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
@@ -136,6 +152,6 @@
 <script>
         AOS.init();
       </script>
-<script src="script.js"></script>
+<script src="exibi.js"></script>
 </body>
 </html>
