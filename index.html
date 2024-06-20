@@ -9,8 +9,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Viva sem Dengue</title>
 </head>
@@ -18,22 +16,22 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">
-                <img class="cabacalho" src="img/dengu.png">
-                <img class="cabacalho" src="img/logo_fatec_br (1).png">
-                <img class="cabacalho" src="img/prefeitura (1).png">
+                <img class="cabacalho" data-aos="fade-left" data-aos-duration="2300" src="img/dengu.png">
+                <img class="cabacalho" data-aos="fade-left" data-aos-duration="2300" data-aos-delay="1500" src="img/logo_fatec_br (1).png">
+                <img class="cabacalho" data-aos="fade-left" data-aos-duration="2300" data-aos-delay="3000" src="img/prefeitura (1).png">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item active" data-aos="fade-right" data-aos-duration="2300">
                         <a class="nav-link" href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue">Gov.br</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-right" data-aos-duration="2300" data-aos-delay="1500">
                         <a class="nav-link" href="https://www.indaiatuba.sp.gov.br/saude/vigilancia-em-saude/vigilancia-epidemiologica/dengue/">Combate a dengue</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-right" data-aos-duration="2300" data-aos-delay="3000">
                         <a class="nav-link" href="https://www.indaiatuba.sp.gov.br/saude/minha-vacina/">Minha vacina</a>
                     </li>
                 </ul>
@@ -44,10 +42,10 @@
         <canvas id="meuGrafico"></canvas>
     </section>
     <div class="container">
-        <div class="video-container">
+        <div class="video-container" data-aos="fade-up" data-aos-duration="2000">
                 <p><iframe width="100%" height="auto" src="https://www.youtube.com/embed/p6AUKnB0EAw?si=hlxtf5QwFa7ckiOG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
         </div>
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="2000">
             <div class="col-md-4 col-sm-6 mt-3">
                 <div class="card">
                     <img class="card-img-top hqdef" src="img/10minutos.jpg" alt="Imagem de capa do card">
@@ -80,7 +78,7 @@
             </div>
         </div>
         <form>
-        <div class="formtudo mt-5">
+        <div class="formtudo mt-5" data-aos="zoom-in" data-aos-duration="2000">
             <h4 class="text-center"><b>Dúvidas sobre a dengue?</b></h4>
             <div class="form-group" style="margin-left: 4.2%; margin-right: 4.2%;">
               <label for="exampleFormControlInput1" style="margin-top: 2%;">Endereço de email</label>
@@ -153,8 +151,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <script>
-        AOS.init();
-      </script>
+    AOS.init();
+</script>
 <script src="exibi.js"></script>
 </body>
 </html>

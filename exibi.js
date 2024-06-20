@@ -8,10 +8,10 @@ fetch('alertcity.json')
         casos_est = casos_est.reverse();
 
         const getBarColor = valor => {
-            if (valor <= 100) return 'green';
-            if (valor <= 250) return 'yellow';
-            if (valor <= 400) return 'orange';
-            return 'red';
+            if (valor <= 100) return '#f2cbcb';
+            if (valor <= 250) return '#b87474';
+            if (valor <= 400) return '#874949';
+            return '#512626';
         };
         const backgroundColor = casos_est.map(getBarColor);
 
