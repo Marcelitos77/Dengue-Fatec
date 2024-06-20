@@ -22,7 +22,7 @@ deploy: https://dengue-fatec.vercel.app/
 
 - [@GustavoSilvadeCarvalho](https://github.com/GustavoSilvadeCarvalho)
 
-- RODRIGO MORAES DE SOUZA GARCIA
+- [@rogarcia7](https://github.com/rogarcia7)
 
 - DAVI BERTO MANSUR DUARTE 
 
