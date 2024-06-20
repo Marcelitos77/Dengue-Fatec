@@ -1,6 +1,6 @@
 body{
     overflow-x: hidden;
-    background: linear-gradient(to bottom, #f0abab, #e27c7c,#ca7575,#8f4b4b)
+    background: linear-gradient(to bottom, #c6d0ff, #8c97fd,#5e76ff,#393dff)
 }
 
 .cabacalho {
@@ -9,26 +9,43 @@ body{
     margin-left: 30px;
 }
 
+#fatecCab{
+    width: 130px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
 .navbar-nav li:hover{
     transform: scale(1.1);
 }
 .navbar-nav li{
-    background-color: #ca7575;
+    background-color: #6788e4;
     margin-left: 2%;
     border-radius: 0.7rem;
     transition: transform 0.3s ease;
     text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 0.5rem;
 }
 .navbar-nav li a{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
+    width: 6rem;
+    height: 4rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
 }
 
 .nav-link {
     color: white !important;
     font-size: 0.5rem;
     font-weight: bold;
-
 }
 
 
@@ -50,28 +67,29 @@ canvas{
 }
 .card{
     transition: transform 0.5s ease !important;
+    margin: 2% 2% 6% 4%;
 }
 .card:hover{
     transform: scale(1.1);
 }
 .btn{
-    background-color: #8f4b4b;
+    background-color: #6b80f8;
     border-color: transparent;
 }
 .btn:hover{
-    background-color: #ca7575;
+    background-color: #6b80f8;
     border-color: transparent;
 }
 #btn-env:hover,
 #btn-env:focus {
-    background-color: #e27c7c;
+    background-color: #00e1ff;
     color: black;
 }
 
 #btn-env:active,
 #btn-env.active,
 #btn-env[aria-pressed="true"] {
-    background-color: #ca7575 !important;
+    background-color: #197d8f !important;
     color: white;
     border: none;
     box-shadow: none;
