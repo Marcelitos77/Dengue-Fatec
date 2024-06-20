@@ -24,7 +24,7 @@ deploy: https://dengue-fatec.vercel.app/
 
 - [@rogarcia7](https://github.com/rogarcia7)
 
-- DAVI BERTO MANSUR DUARTE 
+- [@DaviMansur01](https://github.com/DaviMansur01) 
 
 
   
