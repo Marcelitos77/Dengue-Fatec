@@ -11,27 +11,28 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Viva sem Dengue</title>
+    <link rel="shortcut icon" href="img/dengu.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">
                 <img class="cabacalho" data-aos="fade-left" data-aos-duration="2300" src="img/dengu.png">
-                <img class="cabacalho" data-aos="fade-left" data-aos-duration="2300" data-aos-delay="1500" src="img/logo_fatec_br (1).png">
+                <img id="fateclogo" class="cabacalho" data-aos="fade-left" data-aos-duration="2300" data-aos-delay="1500" src="img/logo_fatec_br (1).png">
                 <img class="cabacalho" data-aos="fade-left" data-aos-duration="2300" data-aos-delay="3000" src="img/prefeitura (1).png">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse mr-4" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active" data-aos="fade-right" data-aos-duration="2300">
-                        <a class="nav-link" href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue">Gov.br</a>
+                    <li class="nav-item active mb-2" data-aos="fade-right" data-aos-duration="2300">
+                        <a class="nav-link p-3" href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue">Gov.br</a>
                     </li>
-                    <li class="nav-item" data-aos="fade-right" data-aos-duration="2300" data-aos-delay="1500">
-                        <a class="nav-link" href="https://www.indaiatuba.sp.gov.br/saude/vigilancia-em-saude/vigilancia-epidemiologica/dengue/">Combate a dengue</a>
+                    <li class="nav-item mb-2" data-aos="fade-right" data-aos-duration="2300" data-aos-delay="1500">
+                        <a id="combate" class="nav-link" href="https://www.indaiatuba.sp.gov.br/saude/vigilancia-em-saude/vigilancia-epidemiologica/dengue/">Combate a dengue</a>
                     </li>
-                    <li class="nav-item" data-aos="fade-right" data-aos-duration="2300" data-aos-delay="3000">
+                    <li class="nav-item mb-2" data-aos="fade-right" data-aos-duration="2300" data-aos-delay="3000">
                         <a class="nav-link" href="https://www.indaiatuba.sp.gov.br/saude/minha-vacina/">Minha vacina</a>
                     </li>
                 </ul>
@@ -45,8 +46,8 @@
         <div class="video-container" data-aos="fade-up" data-aos-duration="2000">
                 <p><iframe width="100%" height="auto" src="https://www.youtube.com/embed/p6AUKnB0EAw?si=hlxtf5QwFa7ckiOG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
         </div>
-        <div class="row" data-aos="fade-up" data-aos-duration="2000">
-            <div class="col-md-4 col-sm-6 mt-3">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 mt-3" data-aos="fade-up" data-aos-duration="2000">
                 <div class="card">
                     <img class="card-img-top hqdef" src="img/10minutos.jpg" alt="Imagem de capa do card">
                     <div class="card-body">
@@ -56,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 mt-3">
+            <div class="col-md-4 col-sm-6 mt-3" data-aos="fade-up" data-aos-duration="2000">
                 <div class="card">
                     <img class="card-img-top hqdef" src="img/hq-dengue.jpg" alt="Imagem de capa do card">
                     <div class="card-body">
@@ -66,7 +67,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 mt-3">
+            <div class="col-md-4 col-sm-6 mt-3" data-aos="fade-up" data-aos-duration="2000">
                 <div class="card">
                     <img class="card-img-top hqdef" src="img/dengue2.jpg" alt="Imagem de capa do card">
                     <div class="card-body">
@@ -133,7 +134,7 @@
 			</div>	
 		</div>
 	</section>
-    <section class="row">
+    <section class="row imagefoot">
         <article class="col text-center">
             <p><img class="img-footer" src="img/logo_fatec_br (1).png" alt=""></p>
         </article>
