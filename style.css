@@ -191,7 +191,7 @@ section .section-title {
 .imagefoot{
     background-color: #ca7575;
 }
-@media (max-width:767px){
+@media (max-width:769px){
     .cabacalho {
         width: 70px;
         height: 70px;
@@ -204,13 +204,25 @@ section .section-title {
         height: auto;
     }
 
-
 	#footer h5 {
     padding-left: 0;
     border-left: transparent;
     padding-bottom: 0px;
     margin-bottom: 10px;
-}
+    }
+    .nav-link {
+        font-size: 0.5rem;
+        margin-left: 43%;
+    }
+    .navbar-nav li a {
+        font-size: 0.8rem;
+        width: 5rem;
+        height: 3rem;
+    }
+    #fateclogo{
+        width: 75px !important;
+        height: auto;
+    }
 }
 @media only screen and (min-width: 399px) and (max-width: 600px) {
     .cabacalho {
@@ -220,6 +232,19 @@ section .section-title {
     
     canvas {
         min-height: 40vh;
+    }
+    .nav-link {
+        font-size: 0.5rem;
+        margin-left: 38%;
+    }
+    .navbar-nav li a {
+        font-size: 0.8rem;
+        width: 5rem;
+        height: 3rem;
+    }
+    #fateclogo{
+        width: 75px !important;
+        height: auto;
     }
 }
 
@@ -236,5 +261,18 @@ section .section-title {
     }
     canvas {
         min-height: 35vh;
+    }
+    .nav-link {
+        font-size: 0.5rem;
+        margin-left: 38%;
+    }
+    .navbar-nav li a {
+        font-size: 0.8rem;
+        width: 5rem;
+        height: 3rem;
+    }
+    #fateclogo{
+        width: 75px !important;
+        height: auto;
     }
 }
